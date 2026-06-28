@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/javanauta.iml" filepath="$PROJECT_DIR$/.idea/javanauta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/primeiro-projeto.iml" filepath="$PROJECT_DIR$/primeiro-projeto.iml" />
     </modules>
   </component>
 </project>
