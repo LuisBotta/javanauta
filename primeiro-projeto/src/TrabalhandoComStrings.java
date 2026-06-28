@@ -3,13 +3,16 @@ public class TrabalhandoComStrings {
     public static void main(String[] args) {
 
         String nome = "Luis";
-        String nome2 = "Felipe";
+        String sobrenome = "Botta";
 
         int tamanhoString = nome.length();
-        boolean saoIguais = nome.equals(nome2);
+        boolean saoIguais = nome.equals(sobrenome);
+        String nomeCompleto = nome.concat(sobrenome);
+
 
         System.out.println("Olá " + nome.toLowerCase() + " seu nome tem " + tamanhoString + " caracteres");
         System.out.println("Os nomes são iguais: " + saoIguais);
+        System.out.println("Nome completo: " + nomeCompleto);
 
 
     }
