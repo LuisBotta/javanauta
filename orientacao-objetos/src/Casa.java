@@ -11,11 +11,10 @@ public class Casa {
         casa.numeroQuartos = 3;
         casa.metragem = 70;
         casa.material = "Tijolo";
-        casa.cor = "Cinza";
 
         //Chamando os métodos
         casa.construir();
-        casa.pintar();
+        casa.pintar("Cinza");
         casa.somarMetragem();
 
         casa.mudarCorParede("Azul");
@@ -30,10 +29,9 @@ public class Casa {
         casaVizinho.numeroQuartos = 2;
         casaVizinho.material = "Lajota";
         casaVizinho.metragem = 20;
-        casaVizinho.cor = "Verde";
 
         casaVizinho.construir();
-        casaVizinho.pintar();
+        casaVizinho.pintar("Verde");
 
 
     }
