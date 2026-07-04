@@ -1,3 +1,5 @@
+import etapaConstrucao.PlantaCasa;
+
 public class Casa {
 
     public static void main(String[] args) {
@@ -14,7 +16,26 @@ public class Casa {
         //Chamando os métodos
         casa.construir();
         casa.pintar();
-    }
+        casa.somarMetragem();
 
+        casa.mudarCorParede("Azul");
+
+        casa.alterarCaracteristicas(100,4,2,"Madeira");
+
+        int resultado = casa.somarMetragem();
+        System.out.println(resultado);
+
+        PlantaCasa casaVizinho = new PlantaCasa();
+        casaVizinho.numeroBanheiros = 1;
+        casaVizinho.numeroQuartos = 2;
+        casaVizinho.material = "Lajota";
+        casaVizinho.metragem = 20;
+        casaVizinho.cor = "Verde";
+
+        casaVizinho.construir();
+        casaVizinho.pintar();
+
+
+    }
 
 }
