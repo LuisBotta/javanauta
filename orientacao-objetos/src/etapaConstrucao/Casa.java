@@ -1,3 +1,5 @@
+package etapaConstrucao;
+
 import etapaConstrucao.PlantaCasa;
 
 public class Casa {
